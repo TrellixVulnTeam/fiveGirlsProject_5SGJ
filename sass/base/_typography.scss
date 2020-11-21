@@ -151,6 +151,10 @@ span{
     color: $plum;
     left: 25rem;
     top: 11rem;
+
+    
+        animation: moveinleft 15s;
+        
 }
 
 .response{
@@ -165,17 +169,23 @@ span{
     right: 7rem;
     top: 16rem;
     
+    animation: moveinright 15s;
 }
 .account{
     color: $salmon;
     left: 28rem;
     top: 23rem;
+
+    animation: moveinleft 15s;
+        
 }
 
 .child{
     color: $purple-pearly;
     right: 2rem;
     top: 23rem;
+
+    animation: moveinright 15s;
   
 }
 

@@ -51,12 +51,17 @@ header{
     @media (max-width:375px){
         width: 60%;
     }
+
+    &__title{
+        animation: moveinleft 5s;
+        
+    }
   
-
-    
-
     &__sub{
         margin-left: 12rem;
         margin-bottom: 8rem;
+        animation: moveinright 5s;
+            
+        
     }
 }

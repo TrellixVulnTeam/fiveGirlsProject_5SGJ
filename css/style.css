@@ -162,7 +162,8 @@ span {
 .ourvalues {
   color: #7B417B;
   left: 25rem;
-  top: 11rem; }
+  top: 11rem;
+  animation: moveinleft 15s; }
 
 .response {
   color: #FE5862;
@@ -173,20 +174,41 @@ span {
 .collab {
   color: #FE9055;
   right: 7rem;
-  top: 16rem; }
+  top: 16rem;
+  animation: moveinright 15s; }
 
 .account {
   color: #FE766A;
   left: 28rem;
-  top: 23rem; }
+  top: 23rem;
+  animation: moveinleft 15s; }
 
 .child {
   color: #AE73A9;
   right: 2rem;
-  top: 23rem; }
+  top: 23rem;
+  animation: moveinright 15s; }
 
 .section-paragraph {
   padding: 0rem 0rem; }
+
+@keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px); }
+  80% { }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveinright {
+  0% {
+    opacity: 0;
+    transform: translatex(200px); }
+  80% { }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
 
 header {
   height: 80vh;
@@ -229,9 +251,12 @@ header {
   @media (max-width: 375px) {
     .header {
       width: 60%; } }
+  .header__title {
+    animation: moveinleft 5s; }
   .header__sub {
     margin-left: 12rem;
-    margin-bottom: 8rem; }
+    margin-bottom: 8rem;
+    animation: moveinright 5s; }
 
 .art {
   margin: 0rem;
