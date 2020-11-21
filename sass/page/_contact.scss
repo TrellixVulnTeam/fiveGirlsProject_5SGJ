@@ -1,0 +1,139 @@
+
+
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    width: 40%;
+
+    @media (max-width:990px){
+        width: 60%;
+      }
+
+    &__logo{
+        height:10rem;
+    }
+    &__title{
+ 
+    }
+    &__paragraph{
+        padding: 1rem;
+        text-align: center;
+        // margin: 3rem;
+    }
+    &__form{
+        // background-color: violet;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0rem;
+    }
+    &__field{
+        // background-color: wheat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+
+    &__tick-box{
+        // background-color: yellow;
+        width: 80%;  
+    }
+
+    &__checkbox{   
+        height: 1rem;
+        width: 1rem;
+    }
+
+    &__btn{
+        padding: 1.5rem 5rem;
+        background-color: $plum;
+        border: none;
+        border-radius: 1rem;
+        margin: 3rem;
+        color: white;
+        font-size: 2rem;
+        
+        &:hover{
+            cursor: pointer;
+            background-color: $purple-pearly;
+        }
+        
+        &:active{
+            transform: scale(0.9);
+        }
+    }
+}
+
+input, textarea{
+    border: none;
+    height: 5rem;
+    width: 100%;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: solid purple 0.1rem;
+}
+
+textarea{
+    height: 15rem;
+}
+
+.support{
+    background-color: $salmon;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    &__title{
+        background-color: white;
+        text-align: center;
+
+    }
+
+    &__paragraph{
+        color: white;
+    }
+
+    &__box{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__btn{
+        padding: 1.5rem 5rem;
+        background-color:transparent;
+        border: solid white 0.2rem;
+        border-radius: 1rem;
+        margin: 3rem;
+        color:  white;
+        font-size: 2rem;
+        transition: all 0.2s ease;
+
+
+        &:hover{
+            background-color: white;
+            color: $salmon;
+            cursor: pointer;
+        }
+        &:active{
+            transform: scale(0.9);
+        }
+
+        
+    }
+}
+
+.gofundme{
+    // position: relative;
+    height: 10rem;
+    right: 25rem;
+}

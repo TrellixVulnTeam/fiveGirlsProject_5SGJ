@@ -1,0 +1,40 @@
+.programme{
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    background-color: $sizzling_red;
+
+
+   
+    @media (max-width:480px){
+        flex-direction: column;
+    }
+
+    &:nth-child(2n){
+        background-color: $purple-pearly;
+        
+    }
+
+    &__img{
+        height: 40rem;
+        width: 40rem;
+
+        @media (max-width:750px){
+            height: 30rem;
+            width: 30rem;
+        }
+
+        @media (max-width:480px){
+            height: 60rem;
+            width: 60rem;
+            margin: 1rem;
+           
+        }
+        // @media (max-width:375px){
+        //     height: 60rem;
+        //     width: 60rem;
+        //     margin: 1rem;
+        // }
+    }
+
+}

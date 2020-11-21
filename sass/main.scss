@@ -1,0 +1,29 @@
+@import './abstract/utils.scss';
+@import './abstract/variables.scss';
+
+@import './base/base.scss';
+@import './base/typography.scss';
+
+@import './component/slideshow.scss';
+@import './component/profile-pics.scss';
+
+@import './layout/header.scss';
+@import './layout/main.scss';
+@import './layout/socials.scss';
+
+@import './layout/navbar.scss';
+@import './layout/sections.scss';
+
+
+@import './page/blog.scss';
+@import './page/contact.scss';
+@import './page/home.scss';
+@import './page/programmes.scss';
+@import './page/real-social-enterprise.scss';
+@import './page/team.scss';
+@import './page/workshop.scss';
+@import './page/footer.scss';
+@import './page/realcosmetic.scss';
+@import './page/events.scss';
+@import './page/internship.scss';
+@import './page/research.scss';

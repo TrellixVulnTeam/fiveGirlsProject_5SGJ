@@ -1,0 +1,53 @@
+.internship{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    &__container{
+        // background-color: goldenrod;
+        display: flex;
+        width: 100%;
+
+        @media (max-width:480px){
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        
+
+    }
+    &__img{
+       height: 32rem;
+       width: 32rem;
+
+       @media (max-width:480px){
+        height: 50rem;
+        width: 50rem;
+        margin: 5rem;
+      }
+    }
+
+    &__text-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text{
+
+        padding: 1rem 12rem;
+
+        @media (max-width:750px){
+            padding: 1rem 6rem;
+          }
+
+        @media (max-width:570px){
+          padding: 0rem 6rem;
+        }
+
+        @media (max-width:480px){
+            padding: 0rem 3rem;
+          }
+    }
+}

@@ -1,0 +1,264 @@
+
+.nav{
+    
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 3rem 5rem;
+
+        @media (max-width:750px){
+            padding: 5rem 5rem;
+        }
+
+      
+    
+        &__logo{
+            
+            height: 5rem;
+            padding: 1rem;
+            box-shadow: none;
+        }
+
+        &__box{
+            right: 5rem;
+            position: absolute;
+            // margin-bottom: 2rem;
+
+            @media (max-width:750px){
+                display: none;
+              }
+
+        }
+
+        &__menu{
+            color:$plum;
+            text-decoration: none;
+            padding: 0rem 3rem;
+            font-size: 2rem;
+            font-weight: 400;
+            
+            &:hover{
+                color: #e6cbe5;
+            }
+          
+        }
+}
+
+.small-nav{
+  background-color: $sizzling-red;
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width:750px){
+    display: none;
+ }
+}
+
+.dropdown{
+    position: relative;
+    right: 15rem;
+
+    &__link{
+        display: none;
+    }
+}
+
+.dropdown ul, li {
+    background-color: $salmon;
+    width: 17rem;
+    height: 50px;
+    line-height: 5rem;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    list-style: none;
+    z-index: 1001;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    // border: solid #ff9085 .1rem;
+
+    @media (max-width:750px){
+        background-color: transparent;
+    }
+    
+}
+
+.dropdown ul li:hover{
+    background-color:#ff988f;
+    
+}
+
+.dropdown ul li:hover > ul{
+   display: block;
+}
+.dropdown a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation{
+
+    @media(min-width:750px){display: none}
+    
+    @media(max-width:750px){
+
+    
+
+    &__checkbox{
+        display: none;
+    }
+
+    &__checkbox:checked~&__background{
+        transform:scale(80)
+    }
+
+    &__checkbox:checked~&__nav{
+        opacity: 1;
+        width: 100%;
+    }
+
+    &__checkbox:checked +&__button &__icon{
+       background-color: transparent;
+    }
+
+    &__checkbox:checked +&__button &__icon::before{
+        top: 0rem;
+        transform: rotate(45deg);
+     }
+
+     &__checkbox:checked +&__button &__icon::after{
+        transform: rotate(-45deg);
+        top: 0rem;
+     }
+
+
+    &__button{
+        background-color: $tangerine;
+        height: 9rem;
+        width: 9rem;
+        position: fixed;
+        top: 7.5rem;
+        right: 10.5rem;
+        border-radius: 50%;
+        z-index: 5000;
+        opacity: 1;
+        box-shadow: 0 0.5rem 1.5rem #7b417b;
+        
+    }
+    &__background{
+        height: 9rem;
+        width: 9rem;
+        border-radius: 50%;
+        position: fixed;
+        top: 7.5rem;
+        right: 10.5rem;
+        background-image: radial-gradient($salmon, $tangerine);;
+        z-index: 1000;
+        transition: transform 0.8s;
+        text-align: center;
+        
+        
+    }
+    &__nav{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1500;
+        opacity: 0;
+        transition: opacity .8s;
+        text-align: center;
+        
+    }
+
+
+    &__list{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+      
+        
+    }
+    &__item{
+
+        width: 100%;
+        padding: 3rem;
+        border-bottom: white 0.2rem solid;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        transition: 0.1s ease-in;
+        overflow: hidden;
+
+        &:hover{
+            background-color:white;
+            color: $sizzling-red;
+        }
+        
+      
+    }
+
+    &__link{
+        font-size: 4rem;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        width: 100%;  
+        transition: 0.1s ease-in;
+        overflow: hidden;
+
+        &:hover{
+            background-color:white;
+            color: $sizzling-red;
+        }
+        
+        
+    }
+
+    &__icon{
+        position: relative;
+        margin-top: 4.5rem;
+
+        &,
+        &::before,
+        &::after{
+            width: 6rem;
+            height: 1.5px;
+            left: 1.3rem;
+            background-color: white;
+            display:inline-block;
+        }
+
+        &::before,
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all 0.1s;
+        }  
+        
+        &::before{
+            top: -1rem;
+        }
+
+        &::after{
+            top: 1rem;
+        }
+
+
+    }
+}
+}
+
+
+

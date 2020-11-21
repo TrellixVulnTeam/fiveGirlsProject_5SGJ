@@ -1,0 +1,181 @@
+.events{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+   
+    &__container{
+        background-color: $sizzling-red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        padding: 2rem 10rem;
+
+        &:nth-child(2){
+            background-color: $salmon;
+        }
+        &:nth-child(3){
+            background-color: $purple-pearly;
+        }
+        @media (max-width:375px){
+            padding: 0rem 5rem;
+        }
+
+    }
+
+    &__text{
+        color: white;
+        padding: 0rem;
+    }
+
+    &__img{
+        
+      
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+.article{
+
+   
+    display: flex;
+    padding: 0rem 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem;
+    &__container{
+       
+        width: 50%;
+        padding: 0rem;
+    }
+    &__paragraph{
+        padding: 3rem 3rem;
+    }
+
+    &__img{
+        height: 35rem;
+        width: 35rem;
+    }
+}
+
+.girltalk{
+ 
+    display: flex;
+    padding: 0rem 5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    
+    @media (max-width:850px){
+        flex-direction: column;
+    }
+
+    &__container{
+       
+        width: 90%;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        // padding: 1rem;
+      
+    }
+    &__box{
+        position: relative;
+        background-color:$sizzling-red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30rem;
+        height: 80rem;
+    
+        
+        @media (max-width:850px){
+            width: 100%;
+            height: 30rem;
+            flex-direction: row;
+            margin-top: 5rem;
+        }
+    
+    }
+    &__img{
+        
+        height: 25rem;
+        width: 26rem;
+        margin: 1rem;        
+    }
+}
+
+    .queen{
+        background-color: $sizzling-red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 0rem 6rem;
+
+        @media (max-width:850px){
+            flex-direction: column;
+        }
+    
+        &__container{
+           
+            width: 90%;
+            padding: 0rem;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 1rem;
+
+            
+            
+        }
+        &__box{
+            position: relative;
+            background-color:$tangerine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30rem;
+            height: 80rem;
+            
+            
+        @media (max-width:850px){
+            width: 100%;
+            height: 30rem;
+            flex-direction: row;
+        }
+        }
+        &__img{
+            
+            height: 25rem;
+            width: 26rem;
+            margin: 1rem;
+           
+        }
+
+        &__paragraph{
+            color: white;
+
+            @media (max-width:480px){
+                padding: 0rem;
+            }
+
+            @media (max-width:1220px){
+                padding: 1rem 2rem;
+            }
+        
+
+            @media (max-width:1065px){
+                padding: 0rem;
+            }
+        
+        
+        }
+        
+    
+    
+}

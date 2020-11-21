@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 3rem;
+
+
+    @media (max-width:1440px){
+        font-size: 55.5%;
+
+    }
+    @media (max-width:1220px){
+        font-size: 50%;
+
+    }
+
+    @media (max-width:1065px){
+        font-size: 45%;
+
+    }
+    @media (max-width:990px){
+        font-size: 40%;
+    }
+
+    @media (max-width:850px){
+        font-size: 35%;
+    }
+
+    @media (max-width:750px){
+        font-size: 30%;
+    }
+
+    @media (max-width:480px){
+        font-size: 22%;
+    }
+
+    @media (max-width:375px){
+        font-size: 20%;
+    }    
+}
+
+body {
+   
+    box-sizing: inherit;
+    font-family: 'Tajawal', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    padding: 5rem 14rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    @media (max-width:1440px){
+       padding: 5rem 7rem;
+    }
+
+     
+    
+}
+ 
+
+
+img{
+    border-radius: 5%;
+    box-shadow: 0rem 0.2rem 0.2rem 0rem #00000066;
+
+}

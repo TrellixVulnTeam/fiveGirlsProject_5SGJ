@@ -1,0 +1,196 @@
+h1{
+    font-size: 6.5rem;
+    color: $purple-pearly;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding: 6.5rem;
+    
+
+    @media (max-width:1065px){
+        padding: 4rem 10rem;
+
+    }
+
+    @media (max-width:375px){
+      font-size: 7.5rem;
+    }
+}
+
+h2{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding: 3rem;
+
+    @media (max-width:375px){
+        font-size: 7.5rem;
+      }
+}
+
+h3{
+    font-size: 4rem;
+    color: $salmon;
+    padding: 2rem 15rem;
+}
+
+p{
+    padding: 1rem 5rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: $purple-dark-2;
+    margin: 1.5rem;
+
+    @media (max-width:990px){
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+   
+    @media (max-width:850px){
+        font-size: 3rem;
+    }
+        
+    @media (max-width:550px){
+        font-size: 3rem;
+        
+    }
+
+    @media (max-width:480px){
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    @media (max-width:375px){
+        font-size: 4.5rem;
+        line-height: 6rem;
+    }
+   
+
+   
+}
+
+h4{
+    font-size: 3rem;
+    color: wheat;
+    font-weight: 300;
+    line-height: 5rem;
+
+    @media (max-width:480px){
+        font-size: 4.5rem;
+    }
+
+
+    @media (max-width:375px){
+        font-size: 4rem;
+    }
+
+}
+
+h5{
+    font-size: 10rem;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 100;
+    padding: 3rem;
+}
+
+h6{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 100;
+    // padding: 3rem;
+}
+
+
+span{
+    color: $tangerine;
+    font-size: 3em;
+    font-weight: 200;
+    padding: 0rem 5rem;
+    font-weight: 300;
+}
+
+.art > span{
+  
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 500;
+
+        
+    @media (max-width:1440px){
+        font-size: 7rem;
+      
+    }
+    
+    
+    @media (max-width:1220px){
+        font-size: 6.7rem;
+      
+    }
+    
+    @media (max-width:990px){
+        font-size: 6.7rem;
+      
+    }
+
+    @media (max-width:650px){
+        font-size: 5.4rem;
+       
+    }
+    
+    @media (max-width:550px){
+        font-size: 8.6rem;
+        position: unset;
+        margin: 4rem 0rem;
+    }
+
+}
+
+.ourvalues{
+    color: $plum;
+    left: 25rem;
+    top: 11rem;
+}
+
+.response{
+    color: $sizzling-red;
+    position: absolute;
+    left: 10rem;
+    top: 16rem;
+    }
+
+.collab{
+    color:$tangerine;
+    right: 7rem;
+    top: 16rem;
+    
+}
+.account{
+    color: $salmon;
+    left: 28rem;
+    top: 23rem;
+}
+
+.child{
+    color: $purple-pearly;
+    right: 2rem;
+    top: 23rem;
+  
+}
+
+
+
+.section-paragraph{
+    padding:0rem 0rem;
+   
+}
+
+// .section__title{
+//     color:$purple-dark-1;
+//     color: #281526;
+//     left: 10rem;
+//     position: relative;
+//     width: 75rem;
+// }
+
