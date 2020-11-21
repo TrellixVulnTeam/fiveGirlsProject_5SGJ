@@ -20,7 +20,7 @@ document.querySelector('body').insertAdjacentHTML('afterbegin', `
 
 <nav class="navigation__nav">
     <ul class="navigation__list">
-        <li class="navigation__item"><a href="Index.html" class="navigation__link">Home</a></li>
+        <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
         <li class="navigation__item"><a href="OurProgammes.html" class="navigation__link">Programme</a></li>
         <li class="navigation__item"><a href="Media.html" class="navigation__link">Media</a></li>
         <li class="navigation__item"><a href="Events.html" class="navigation__link">Events</a></li>
