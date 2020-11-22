@@ -4,7 +4,7 @@ document.querySelector('body').insertAdjacentHTML('afterbegin', `
 <nav class="nav">
 <img src="img.partnerIcon/logo3-02.png" alt="" class="nav__logo">
 <div class="nav__box">
-    <a href="Index.html" class="nav__menu">Home</a>
+    <a href="index.html" class="nav__menu">Home</a>
     <a href="ContactUs.html" class="nav__menu">Contact Us</a>
 </div>
 </nav>
