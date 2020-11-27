@@ -1,22 +1,68 @@
-.pics{
-    @media (max-width:650px){
-        padding: 5rem 20rem;
-        flex-wrap: wrap;
-     }
 
-     @media (max-width:550px){
-        padding: 5rem 10rem;
-        flex-wrap: wrap;
-     }
+.home-images{
+   background-color: yellow;
+   height: 24rem;
+   width: 26rem;
+   margin: 1rem;
+   border-radius: 0.5rem;
+   background-size: cover;
+   background-repeat: no-repeat;
 
-     @media (max-width:480px){
-        padding: 5rem 20rem;
-        flex-wrap: wrap;
-     }
- 
- 
- 
+   &__1{
+      background-image: url(/img.home/pic1.jpg);
+   }
 
-  padding: 5rem 10rem;
+   &__2{
+      background-image: url(/img.home/pic2.jpg);
+   }
    
+   &__3{
+      background-image: url(/img.home/pic3.jpg);
+   }
+
+   &__4{
+      background-image: url(/img.home/pic4.jpg);
+   }
+   
+   &__5{
+      background-image: url(/img.home/pic5.jpg);
+   }
+
+   &__6{
+      background-image: url(/img.home/pic6.jpg);
+   }
+   
+   &__8{
+      background-image: url(/img.home/pic8.jpg);
+   }
+
+   &__9{
+      background-image: url(/img.home/pic9.jpg);
+   }
+   
+   &__10{
+      background-image: url(/img.home/pic10.jpg);
+   }
+
+   &__11{
+      background-image: url(/img.home/pic11.jpg);
+   }
+   
+   &__12{
+      background-image: url(/img.home/pic12.jpg);
+   }
+
+   &__13{
+      background-image: url(/img.home/pic13.jpg);
+   }
+
+   &__14{
+      background-image: url(/img.home/pic14.jpg);
+   }
+   
+   &__15{
+      background-image: url(/img.home/pic15.jpg);
+   }
 }
+
+   

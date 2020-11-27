@@ -9,7 +9,7 @@
     &__box{
         padding: 2rem;
         position: relative;
-        // background-color: salmon;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,16 +23,11 @@
     &__text{}
 
     &__icon{
-        height: 15rem;
-        width: 20rem;
+        height: 10rem;
+        width: 15rem;
         margin: 2rem;
         box-shadow: none;
       
-
-        @media (max-width:480px){
-            height: 13rem;
-            width: 18rem;
-        }
     }
      
     }
@@ -48,9 +43,7 @@
     display: flex;
     justify-content: center;
 
-    @media (max-width:375px){
-        background-position: left;
-    }
+   
 
     &__box{
          position: relative;
@@ -58,15 +51,12 @@
         align-items: center;
         // left:-10rem;
 
-        @media (max-width:480px){
-            left:-2rem;
-        }
       
     }
 
     &__logo{
         box-shadow: none;
-        height: 2rem;
+        height: 6rem;
         left: 9rem;
     }
 
@@ -88,32 +78,14 @@
         }
     }
 
-    &__social-text{
+    // &__social-text{
 
-        @media (max-width:550px){
-            font-size: 4rem;
-         }
-
-         @media (max-width:612px){
-            font-size: 4rem;
-         }
-
-
-        @media (max-width:550px){
-            font-size: 3.5rem;
-         }
-
-        @media (max-width:480px){
-           font-size: 3.5rem;
-        }
-
-        
-    }
+    // }
 }
 
 svg{
-    height: 10rem;
-    width: 10rem;
+    height: 6rem;
+    width: 6rem;
     fill: $tangerine;
     margin: 2rem;
     transition: all .3s ease;
@@ -128,20 +100,6 @@ svg{
     &:active{
         transform: scale(1);
     }
-
-    
-    @media (max-width:550px){
-        height: 8rem;
-        width: 8rem;
-        margin: 1rem;
-    }
-
-    @media (max-width:480px){
-        height: 7rem;
-        width: 7rem;
-        margin: 1rem;
-    }
-
 
 }
 

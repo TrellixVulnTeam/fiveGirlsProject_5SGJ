@@ -2,39 +2,89 @@
     justify-content:space-between;
     align-items:center;
     display:flex;
-    background-color: $sizzling_red;
+    border-top: rgb(180, 161, 180) solid .1rem;
+    border-bottom:rgb(180, 161, 180)solid .1rem;
+    margin: 1rem;
+   //  background-color: $sizzling_red;
 
 
-   
-    @media (max-width:480px){
-        flex-direction: column;
-    }
-
-    &:nth-child(2n){
-        background-color: $purple-pearly;
+   //  &:nth-child(2n){
+   //      background-color: $purple-pearly;
         
-    }
+   //  }
 
     &__img{
         height: 40rem;
         width: 40rem;
-
-        @media (max-width:750px){
-            height: 30rem;
-            width: 30rem;
-        }
-
-        @media (max-width:480px){
-            height: 60rem;
-            width: 60rem;
-            margin: 1rem;
-           
-        }
-        // @media (max-width:375px){
-        //     height: 60rem;
-        //     width: 60rem;
-        //     margin: 1rem;
-        // }
     }
 
 }
+
+.programme-images{
+  
+    height: 30rem;
+    width: 32rem;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    &__1{
+       background-image: url(/img.programme/pic1.jpg);
+    }
+ 
+    &__2{
+       background-image: url(/img.programme/pic2.jpg);
+    }
+    
+    &__3{
+       background-image: url(/img.programme/pic3.png);
+    }
+ 
+    &__4{
+       background-image: url(/img.programme/pic4.png);
+    }
+    
+    &__5{
+       background-image: url(/img.programme/pic5.png);
+    }
+ 
+    &__6{
+       background-image: url(/img.programme/pic6.jpg);
+    }
+    
+    &__7{
+       background-image: url(/img.programme/pic7.png);
+    }
+ 
+    &__8{
+       background-image: url(/img.programme/pic8.png);
+    }
+    
+    &__9{
+       background-image: url(/img.programme/pic9.jpg);
+    }
+ 
+    &__10{
+       background-image: url(/img.programme/pic10.jpg);
+    }
+    
+    &__11{
+       background-image: url(/img.programme/pic11.jpg);
+    }
+
+    &__12{
+        background-image: url(/img.programme/pic12.jpg);
+     }
+  
+     &__13{
+        background-image: url(/img.programme/pic13.jpg);
+     }
+     
+     &__14{
+        background-image: url(/img.programme/pic14.jpg);
+     }
+
+     &__15{
+        background-image: url(/img.programme/pic15.jpg);
+     }
+ }

@@ -2,7 +2,7 @@
 
 document.querySelector('body').insertAdjacentHTML('afterbegin', `
 <nav class="nav">
-<img src="img.partnerIcon/logo3-02.png" alt="" class="nav__logo">
+<img src="img.partnerIcon/logo.png" alt="" class="nav__logo">
 <div class="nav__box">
     <a href="index.html" class="nav__menu">Home</a>
     <a href="ContactUs.html" class="nav__menu">Contact Us</a>
@@ -25,11 +25,10 @@ document.querySelector('body').insertAdjacentHTML('afterbegin', `
         <li class="navigation__item"><a href="Media.html" class="navigation__link">Media</a></li>
         <li class="navigation__item"><a href="Events.html" class="navigation__link">Events</a></li>
         <li class="navigation__item"><a href="OurTeam.html" class="navigation__link">Our Team</a></li>
-        <li class="navigation__item"><a href="internship.html" class="navigation__link">Internship</a></li>
-        <li class="navigation__item"><a href="Workshop.html" class="navigation__link">Workshop</a></li>
+        <li class="navigation__item"><a href="Workshops.html" class="navigation__link">Workshops</a></li>
         <li class="navigation__item"><a href="Enterprise.html" class="navigation__link">Enterprise</a></li>
         <li class="navigation__item"><a href="Research.html" class="navigation__link">Research</a></li>
-        <li class="navigation__item"><a href="RealCosmetics.html" class="navigation__link">Real Cosmetic</a></li>
+        <li class="navigation__item"><a href="RealEnterprise.html" class="navigation__link">Real Enterprise</a></li>
         <li class="navigation__item"><a href="Blog.html" class="navigation__link">Blog</a></li>
         <li class="navigation__item"><a href="ContactUs.html" class="navigation__link">Contact Us</a></li>
     </ul>
@@ -47,8 +46,7 @@ document.querySelector('body').insertAdjacentHTML('afterbegin', `
         <li>Programme
             <ul  class="dropdown__link">
                 <li><a href="OurProgammes.html">Our Programme</a></li>
-                <li><a href="Workshop.html">Workshop</a></li>
-                <li><a href="internship.html">Internship</a></li>
+                <li><a href="Workshops.html">Workshop</a></li>
                 <li><a href="Enterprise.html">Enterprise</a></li>
             </ul>
         </li>
@@ -66,7 +64,7 @@ document.querySelector('body').insertAdjacentHTML('afterbegin', `
    </ul>
  
     <ul>
-        <li>Real Cosmetics
+        <li>Real Enterprise
             <ul  class="dropdown__link">
                 <li><a href="OurTeam.html">Our Team</a></li>
             </ul>
@@ -131,7 +129,7 @@ document.querySelector('body').insertAdjacentHTML('beforeend', `
 </footer>
 
 <footer class="footer__bottom">
-<img src="img.partnerIcon/logo3-02.png" alt="" class="footer__logo">
+<img src="img.partnerIcon/logo.png" alt="" class="footer__logo">
 
 <a class="footer__text" href="">About</a>
 <a class="footer__text" href="">Privacy Policy</a>

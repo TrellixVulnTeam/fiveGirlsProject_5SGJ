@@ -8,14 +8,17 @@
     margin: 0rem auto;
     width: 40%;
 
-    @media (max-width:990px){
-        width: 60%;
-      }
+    
 
     &__logo{
         height:10rem;
     }
     &__title{
+        font-size: 6.5rem;
+        color: #AE73A9;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        padding: 2rem;
  
     }
     &__paragraph{
@@ -77,13 +80,20 @@ input, textarea{
     height: 5rem;
     width: 100%;
     margin: 1rem;
-    border-radius: 1rem;
-    background-color: transparent;
+    border-radius: 0.5rem;
     border: solid purple 0.1rem;
+    &:focus{
+        background-color: rgb(255, 242, 255);
+    }
 }
 
 textarea{
     height: 15rem;
+    
+}
+
+label{
+    font-size: 2rem;
 }
 
 .support{

@@ -1,37 +1,12 @@
 
 header{
-    // background-color: crimson;
-    height: 80vh;
-    width: 100%;
+   
+    height: 100vh;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right bottom, crimson, #461a3ee0, #8a046d85), url(/img.home/backtwo.jpg);
     background-blend-mode: darken;
-
-    @media (max-width:1110px){
-        height: 72vh;
-    }
-
-    @media (max-width:850px){
-        height: 58vh;
-    }
-
-    @media (max-width:750px){
-        height: 50vh;
-    }
-
-    @media (max-width:550px){
-        height: 47vh;
-    }
-
-    @media (max-width:480px){
-        height: 43vh;
-    }
-    @media (max-width:375px){
-        height: 32vh;
-    }
-
 }
 
 
@@ -44,13 +19,6 @@ header{
     margin-top: 5rem;
     width: 50%;
     margin-top: 10rem;
-
-    @media (max-width:480px){
-        width: 65%;
-    }
-    @media (max-width:375px){
-        width: 60%;
-    }
 
     &__title{
         animation: moveinleft 5s;

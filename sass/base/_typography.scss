@@ -1,19 +1,10 @@
 h1{
-    font-size: 6.5rem;
+    font-size: 4rem;
     color: $purple-pearly;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    padding: 6.5rem;
+    font-weight: 500;
+    padding: 6rem;
     
-
-    @media (max-width:1065px){
-        padding: 4rem 10rem;
-
-    }
-
-    @media (max-width:375px){
-      font-size: 7.5rem;
-    }
 }
 
 h2{
@@ -22,10 +13,6 @@ h2{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     padding: 3rem;
-
-    @media (max-width:375px){
-        font-size: 7.5rem;
-      }
 }
 
 h3{
@@ -36,37 +23,11 @@ h3{
 
 p{
     padding: 1rem 5rem;
-    font-size: 2rem;
-    line-height: 3.5rem;
-    color: $purple-dark-2;
+    font-size: 2.1rem;
+    line-height: 3.7rem;
+    color: #461A3E;
     margin: 1.5rem;
 
-    @media (max-width:990px){
-        font-size: 3rem;
-        line-height: 4rem;
-    }
-   
-    @media (max-width:850px){
-        font-size: 3rem;
-    }
-        
-    @media (max-width:550px){
-        font-size: 3rem;
-        
-    }
-
-    @media (max-width:480px){
-        font-size: 4rem;
-        line-height: 6rem;
-    }
-
-    @media (max-width:375px){
-        font-size: 4.5rem;
-        line-height: 6rem;
-    }
-   
-
-   
 }
 
 h4{
@@ -74,16 +35,6 @@ h4{
     color: wheat;
     font-weight: 300;
     line-height: 5rem;
-
-    @media (max-width:480px){
-        font-size: 4.5rem;
-    }
-
-
-    @media (max-width:375px){
-        font-size: 4rem;
-    }
-
 }
 
 h5{
@@ -104,8 +55,8 @@ h6{
 
 
 span{
-    color: $tangerine;
-    font-size: 3em;
+    color: #461a3e;
+    font-size: 4em;
     font-weight: 200;
     padding: 0rem 5rem;
     font-weight: 300;
@@ -114,36 +65,8 @@ span{
 .art > span{
   
     position: absolute;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 500;
-
-        
-    @media (max-width:1440px){
-        font-size: 7rem;
-      
-    }
-    
-    
-    @media (max-width:1220px){
-        font-size: 6.7rem;
-      
-    }
-    
-    @media (max-width:990px){
-        font-size: 6.7rem;
-      
-    }
-
-    @media (max-width:650px){
-        font-size: 5.4rem;
-       
-    }
-    
-    @media (max-width:550px){
-        font-size: 8.6rem;
-        position: unset;
-        margin: 4rem 0rem;
-    }
 
 }
 
@@ -153,39 +76,41 @@ span{
     top: 11rem;
 
     
-        animation: moveinleft 15s;
+        animation: moveDown 5s;
         
 }
 
 .response{
     color: $sizzling-red;
     position: absolute;
-    left: 10rem;
+    left: 7rem;
     top: 16rem;
+
+    animation: moveinleft 12s;
     }
 
 .collab{
     color:$tangerine;
-    right: 7rem;
+    right: 9rem;
     top: 16rem;
     
-    animation: moveinright 15s;
+    animation: moveinright 7s;
 }
 .account{
     color: $salmon;
-    left: 28rem;
+    left: 20rem;
     top: 23rem;
 
-    animation: moveinleft 15s;
+    animation: moveinleft 9s;
         
 }
 
 .child{
     color: $purple-pearly;
-    right: 2rem;
+    right: 7rem;
     top: 23rem;
 
-    animation: moveinright 15s;
+    animation: moveinright 13s;
   
 }
 
@@ -196,11 +121,4 @@ span{
    
 }
 
-// .section__title{
-//     color:$purple-dark-1;
-//     color: #281526;
-//     left: 10rem;
-//     position: relative;
-//     width: 75rem;
-// }
 

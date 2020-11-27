@@ -1,30 +1,22 @@
-.profile-background-img{
+.ourteam-img{
     
-        position: relative;
-        width: 100%;
-        height: 75vh;
-        margin: 0rem;
-        padding: 0rem;
-
-        @media (max-width:375px){
-            height: 35vh;
-          }
-
-          @media (max-width:480px){
-            height: 40vh;
-          }
-
-          @media (max-width:750px){
-            height: 60vh;
-          }
+    position: relative;
+    height: 73vh;
+    // width: 23%;
+    background-image: url(/img.team/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 36rem;
+ 
     }
+
 
 .profile{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     
 
     &__container{
@@ -43,9 +35,6 @@
         background-color: $sizzling-red;
     }
 
-    @media (max-width:550px){
-        flex-direction: column;
-      }
         
     }
 
@@ -57,10 +46,7 @@
         align-items: center;
         padding: 4rem;
 
-        @media (max-width:550px){
-            padding: 0;
-            margin-top: 5rem;
-          }
+        
 
     }
 
@@ -68,29 +54,15 @@
 
         border-radius: 2rem;
         padding: 0rem;
-
-        @media (max-width:1065px){
-            padding: 3rem 2rem;
-          }
     }
 
     
-    &__pic{
-        height: 15rem;
-        width: 15rem;
-        border-radius: 50%;
-
-        @media (max-width:1065px){
-            height: 20rem;
-        width: 20rem;
-        }
-    }
 
     &__name{
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         padding: 1rem;
-        color: $plum;
+        color: white;
 
     }
 
@@ -100,4 +72,25 @@
         padding: 0rem 2rem;
 
     }
+}
+
+
+   
+.profile-pic{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__1{
+        background-image: url(/img.team/pic1.jpg);
+    }
+    &__2{
+        background-image: url(/img.team/pic4.jpg);
+    }
+    &__3{
+        background-image: url(/img.team/pic3.jpg);
+    }
+  
 }

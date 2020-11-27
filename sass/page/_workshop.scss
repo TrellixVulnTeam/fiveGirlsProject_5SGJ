@@ -4,3 +4,33 @@
     height: 20rem;
     width: 20rem;
 }
+
+.workshop-images{
+  
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: .5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    &__1{
+       background-image: url(/img.workshop//pic1.jpg);
+    }
+ 
+    &__2{
+       background-image: url(/img.workshop//pic2.jpg);
+    }
+    
+    &__3{
+       background-image: url(/img.workshop//pic3.png);
+    }
+ 
+    &__4{
+       background-image: url(/img.workshop//pic4.jpg);
+    }
+    
+    &__5{
+       background-image: url(/img.workshop/pic5.jpg);
+    }
+}

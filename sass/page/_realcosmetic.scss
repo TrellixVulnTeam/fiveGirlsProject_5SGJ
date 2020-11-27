@@ -8,11 +8,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        @media (max-width:990px){
-            flex-wrap: wrap;
-            padding: 0rem 24rem;
-        }
     
     }
 

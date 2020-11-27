@@ -11,39 +11,17 @@ html {
     font-size: 62.5%;
     line-height: 3rem;
 
+// @media (max-width:37.5em){//600px phone
+// font-size: ;
+// }
 
-    @media (max-width:1440px){
-        font-size: 55.5%;
+@media (min-width:56.25em){//900px tab port 
+    font-size: 50%;
+}
 
-    }
-    @media (max-width:1220px){
-        font-size: 50%;
-
-    }
-
-    @media (max-width:1065px){
-        font-size: 45%;
-
-    }
-    @media (max-width:990px){
-        font-size: 40%;
-    }
-
-    @media (max-width:850px){
-        font-size: 35%;
-    }
-
-    @media (max-width:750px){
-        font-size: 30%;
-    }
-
-    @media (max-width:480px){
-        font-size: 22%;
-    }
-
-    @media (max-width:375px){
-        font-size: 20%;
-    }    
+@media (min-width:112.5em){//1200 tab land
+    font-size: 56.25%;
+}
 }
 
 body {
@@ -56,24 +34,14 @@ body {
 
 
 section{
-    padding: 5rem 14rem; 
+    padding: 3rem 3rem; 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
-    @media (max-width:1440px){
-       padding: 5rem 7rem;
-    }
-
-     
-    
 }
  
 
 
 img{
     border-radius: 5%;
-    
-
 }
