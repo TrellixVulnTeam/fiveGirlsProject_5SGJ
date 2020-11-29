@@ -1,0 +1,58 @@
+.blog{
+
+    &__container{
+      
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    &__box{
+        border-bottom: purple solid 0.2rem;
+        padding: 2rem;
+
+        &:last-child{
+            border: none;
+        }
+    }
+
+    &__img{
+       
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+       
+    }
+ 
+    &__img-1{
+        background-image: url(/img.blog/62699166.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img-2{
+        background-image: url(/img.blog/441615.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+    &__img-3{
+        background-image: url(/img.blog/5184841.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+    &__img-4{
+        background-image: url(/img.blog/232.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+    &__img-5{
+        background-image: url(/img.blog/56294.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+   
+    
+}
